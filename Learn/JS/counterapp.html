@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter app</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: rgba(37, 37, 37, 0.815);
+            text-align: center;
+            color: white;
+        }
+        
+        .counter-app {
+            height: auto;
+            margin-top: 150px;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        
+        .counter-app__buttons {
+            padding-top: 50px;
+        }
+        
+        button {
+            font-size: 19px;
+            border-radius: 0;
+            border-style: dashed;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="counter-app">
+        <h1 id="counter-number">0</h1>
+        <div class="counter-app__buttons">
+            <button type="button" id="decreaseBtn">Decrease</button>
+            <button type="button" id="resetBtn">Reset</button>
+            <button type="button" id="increaseBtn">Increase</button>
+        </div>
+    </div>
+    <script src="MiniApps/counterapp.js"></script>
+</body>
+
+</html>
